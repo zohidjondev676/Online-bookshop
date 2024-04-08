@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: zohidjon
+      author: zohidjonzohidjondev@gmail.com
+      changes:
+        - sqlFile:
+            path: create-books.sql
+            relativeToChangelogFile: true
